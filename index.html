@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>Three JS Example</title>
+
+    <style>
+        html {
+            background-color: #000011;
+        }
+
+        body,
+        h1,
+        h2,
+        p {
+            margin: 0;
+            font-family: 'IBM Plex Sans', sans-serif;
+            color: white;
+        }
+
+        canvas {
+            width: 70%;
+            height: 70%;
+        }
+
+        .header {
+            padding: 20px;
+        }
+
+        .tooltip {
+            background-color: #00001140;
+            padding: 10px;
+        }
+
+        .center {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div>
+        <h1 class="header center">Mapping Venus</h1>
+        <p class="center">Mapping the names of surface features on Venus using D3 and the Globe.GL package.</p>
+    </div>
+    <div id="globeViz">
+    </div>
+
+
+    <script src="//unpkg.com/globe.gl"></script>
+    <script src="https://d3js.org/d3.v6.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
