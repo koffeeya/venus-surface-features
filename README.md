@@ -1,4 +1,4 @@
-# Mapping Venus
+# Mapping the Names on Venus
 Mapping surface features on Venus using D3 and the Globe.GL package.
 
 Based on a [tutorial](https://github.com/vasturiano/globe.gl/blob/master/example/moon-landing-sites/index.html) from the user vasturiano, who built the Globe.GL package.
