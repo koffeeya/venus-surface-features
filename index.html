@@ -22,18 +22,15 @@
             color: white;
         }
 
-        canvas {
-            width: 70%;
-            height: 70%;
-        }
-
-        .header {
+        .header-wrapper {
             padding: 20px;
+            margin: 10px;
         }
 
         .tooltip {
-            background-color: #00001140;
+            background-color: #000011;
             padding: 10px;
+            max-width: 300px;
         }
 
         .center {
@@ -42,21 +39,51 @@
             justify-content: center;
         }
 
+        .dropdown {
+            margin: 10px;
+            font-family: 'IBM Plex Sans', sans-serif;
+        }
+
+        select,
+        option {
+            font-family: 'IBM Plex Sans', sans-serif;
+            margin: 0px 10px;
+            padding: 5px;
+        }
+
+        .footer {
+            font-size: 12px;
+            margin: 10px;
+        }
+
+        a {
+            color: white;
+        }
+
     </style>
 
 </head>
 
 <body>
-    <div>
+    <div class="header-wrapper">
         <h1 class="header center">Mapping Venus</h1>
-        <p class="center">Mapping the names of surface features on Venus using D3 and the Globe.GL package.</p>
-    </div>
-    <div id="globeViz">
+        <p class="center">Click and drag the globe to explore the names of surface features on Venus.</p>
     </div>
 
+    <div class="dropdown center">
+        <div>
+            <label for="dropdown" name="dropdown-feature">Highlight a surface feature</label>
+            <select class="dropdown-feature" id="dropdown-feature" name="dropdown"></select>
+        </div>
+    </div>
+    <br>
 
+    <div id="globeViz"></div>
+
+    <div class="footer center"><a href='https://github.com/koffeeya/venus-surface-features' target='_new'>View code and data on Github.</a></div>
+
+    <script src="https://d3js.org/d3.v6.min.js"></script>
     <script src="//unpkg.com/globe.gl"></script>
-    <script src="https://d3js.org/d3.v6.js"></script>
     <script src="./main.js"></script>
 </body>
 
