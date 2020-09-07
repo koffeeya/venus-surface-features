@@ -1,4 +1,4 @@
-# Mapping the Names on Venus
+# Mapping Venus with Globe.GL
 Mapping surface features on Venus using D3 and the Globe.GL package.
 
 ### [Live Demo](https://koffeeya.github.io/venus-surface-features/)
