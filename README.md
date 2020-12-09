@@ -1,7 +1,7 @@
 # Mapping Venus with Globe.GL
 Mapping surface features on Venus using D3 and the Globe.GL package.
 
-### [Live Demo](https://koffeeya.github.io/venus-surface-features/)
+### [Live Demo](https://koffeeya.github.io/venus-surface-features/) | [Write-Up](https://observablehq.com/@koffeeya/mapping-a-3d-venus-with-globe-gl)
 
 Based on a [tutorial](https://github.com/vasturiano/globe.gl/blob/master/example/moon-landing-sites/index.html) from the user vasturiano, who built the Globe.GL package.
 
